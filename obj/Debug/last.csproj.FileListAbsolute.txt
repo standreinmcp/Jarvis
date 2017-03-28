@@ -1,0 +1,58 @@
+c:\users\andrei\documents\visual studio 2015\Projects\last\bin\Debug\last.exe.config
+c:\users\andrei\documents\visual studio 2015\Projects\last\bin\Debug\last.exe
+c:\users\andrei\documents\visual studio 2015\Projects\last\bin\Debug\last.pdb
+c:\users\andrei\documents\visual studio 2015\Projects\last\obj\Debug\last.csprojResolveAssemblyReference.cache
+c:\users\andrei\documents\visual studio 2015\Projects\last\obj\Debug\last.Form1.resources
+c:\users\andrei\documents\visual studio 2015\Projects\last\obj\Debug\last.Properties.Resources.resources
+c:\users\andrei\documents\visual studio 2015\Projects\last\obj\Debug\last.csproj.GenerateResource.Cache
+c:\users\andrei\documents\visual studio 2015\Projects\last\obj\Debug\last.exe
+c:\users\andrei\documents\visual studio 2015\Projects\last\obj\Debug\last.pdb
+c:\users\andrei\documents\visual studio 2015\Projects\last\obj\Debug\last.Form2.resources
+D:\last\bin\Debug\last.exe.config
+D:\last\obj\Debug\last.exe
+D:\last\obj\Debug\last.pdb
+D:\last\bin\Debug\last.exe
+D:\last\bin\Debug\last.pdb
+D:\last\obj\Debug\last.csprojResolveAssemblyReference.cache
+D:\last\obj\Debug\last.Form1.resources
+D:\last\obj\Debug\last.Form2.resources
+D:\last\obj\Debug\last.Properties.Resources.resources
+D:\last\obj\Debug\last.csproj.GenerateResource.Cache
+C:\Users\stoic\Desktop\last\bin\Debug\last.exe.config
+C:\Users\stoic\Desktop\last\obj\Debug\last.exe
+C:\Users\stoic\Desktop\last\obj\Debug\last.pdb
+\\192.168.70.2\e\elev\XIIC\last\bin\Debug\last.exe.config
+\\192.168.70.2\e\elev\XIIC\last\obj\Debug\last.exe
+\\192.168.70.2\e\elev\XIIC\last\obj\Debug\last.pdb
+Z:\XIIC\last\bin\Debug\last.exe.config
+Z:\XIIC\last\obj\Debug\last.exe
+Z:\XIIC\last\obj\Debug\last.pdb
+Z:\XIIC\last\bin\Debug\last.exe
+Z:\XIIC\last\bin\Debug\last.pdb
+Z:\XIIC\last\bin\Debug\mscorlib.dll
+Z:\XIIC\last\bin\Debug\normidna.nlp
+Z:\XIIC\last\bin\Debug\normnfc.nlp
+Z:\XIIC\last\bin\Debug\normnfd.nlp
+Z:\XIIC\last\bin\Debug\normnfkc.nlp
+Z:\XIIC\last\bin\Debug\normnfkd.nlp
+Z:\XIIC\last\obj\Debug\last.csprojResolveAssemblyReference.cache
+Z:\XIIC\last\obj\Debug\last.Form1.resources
+Z:\XIIC\last\obj\Debug\last.Form2.resources
+Z:\XIIC\last\obj\Debug\last.Properties.Resources.resources
+Z:\XIIC\last\obj\Debug\last.csproj.GenerateResource.Cache
+\\192.168.70.2\e\elev\XIIC\last\bin\Debug\last.exe
+\\192.168.70.2\e\elev\XIIC\last\bin\Debug\last.pdb
+\\192.168.70.2\e\elev\XIIC\last\bin\Debug\mscorlib.dll
+\\192.168.70.2\e\elev\XIIC\last\bin\Debug\normidna.nlp
+\\192.168.70.2\e\elev\XIIC\last\bin\Debug\normnfc.nlp
+\\192.168.70.2\e\elev\XIIC\last\bin\Debug\normnfd.nlp
+\\192.168.70.2\e\elev\XIIC\last\bin\Debug\normnfkc.nlp
+\\192.168.70.2\e\elev\XIIC\last\bin\Debug\normnfkd.nlp
+\\192.168.70.2\e\elev\XIIC\last\obj\Debug\last.csprojResolveAssemblyReference.cache
+\\192.168.70.2\e\elev\XIIC\last\obj\Debug\last.Form1.resources
+\\192.168.70.2\e\elev\XIIC\last\obj\Debug\last.Form2.resources
+\\192.168.70.2\e\elev\XIIC\last\obj\Debug\last.Properties.Resources.resources
+\\192.168.70.2\e\elev\XIIC\last\obj\Debug\last.csproj.GenerateResource.Cache
+C:\Users\stoic\Documents\Visual Studio 2015\Projects\last1\bin\Debug\last.exe.config
+C:\Users\stoic\Documents\Visual Studio 2015\Projects\last1\obj\Debug\last.exe
+C:\Users\stoic\Documents\Visual Studio 2015\Projects\last1\obj\Debug\last.pdb

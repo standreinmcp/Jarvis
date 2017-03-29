@@ -10,15 +10,18 @@ using System.Windows.Forms;
 using System.Diagnostics;
 using System.Threading;
 using System.Speech.Synthesis;
+using System.IO;
+using System.Reflection;
 
 namespace last
 {
     public partial class Form2 : Form
     {
-        List<List<int>> ranges;
-        List<String> cpuMaxedOutMessages;
+        private List<List<int>> ranges;
+        private List<String> cpuMaxedOutMessages;
+        private List<String> jarvisPhrases;
         private static SpeechSynthesizer synth = new SpeechSynthesizer();
-        PerformanceCounter perfCpuCount = new PerformanceCounter("Processor Information", "% Processor Time", "_Total");
+        private PerformanceCounter perfCpuCount = new PerformanceCounter("Processor Information", "% Processor Time", "_Total");
         
 
      
@@ -28,29 +31,50 @@ namespace last
             this.ranges = ranges;
             this.cpuMaxedOutMessages = messages;
 
-            this.Width = 50;
-            this.Height = 100;
+            this.Width = 91;
+            this.Height = 91;
 
-            #region My Performance Counters
             perfCpuCount.NextValue();
-            #endregion
+           
             timer1.Interval = 6000;
             timer1.Start();
 
-           
+            /**
+             * Requesting the sentences
+             * Maybe you should do this on an Asynchronous task to avoid blocking UI
+             *when reading big files.
+             */
+            this.jarvisPhrases = getPhrasesFromFile();
+            //Here you can put Jarvis to work
+            for(int i=0; i<jarvisPhrases.Count; i++)
+            {
+                Thread.Sleep(500);
+                JarvisSpeak(jarvisPhrases[i], VoiceGender.Neutral);
+            }
         }
 
+        /**
+         *  Getting the phrases for Jarvis from Resource folder of the app.
+         *  @input : nothing
+         *  @output : an array list with all sentences which Jarvis 
+         *              will say through the entire app
+         */ 
         public List<String> getPhrasesFromFile() {
-            List<String> phrases = new List<String>;
+            List<String> phrases = new List<String>();
             // Read the file and display it line by line.
-            string path = System.Environment.CurrentDirectory;
-            path = path + "//jarvisphrase.txt";
-            System.IO.StreamReader file = new System.IO.StreamReader(path);
-            String line;
-
-            while ((line = file.ReadLine()) != null)
+            string path = Path.GetDirectoryName(Path.GetDirectoryName(Directory.GetCurrentDirectory()));
+            path = path + "\\Resources\\jarvisphrase.txt";
+            try
             {
-                phrases.Add(line);
+                StreamReader file = new StreamReader(path);
+                String line;
+                while ((line = file.ReadLine()) != null)
+                {
+                    phrases.Add(line);
+                }
+            }catch(Exception e)
+            {
+                MessageBox.Show(e.Message);
             }
             return phrases;
         }
@@ -69,26 +93,17 @@ namespace last
        
         private void timer1_Tick(object sender, EventArgs e)
         {
-          
-            
-                // Get the current performance counter values
-                int currentCpuPercentage = (int)perfCpuCount.NextValue();
-             
 
-          
-            #region Logic
+            // Get the current performance counter values
+            int currentCpuPercentage = (int)perfCpuCount.NextValue();
             int i = percentageExist(currentCpuPercentage);
                 if (i != -1)
                 {
-                    
-                        string cpuLoadVocalMessage = cpuMaxedOutMessages[i];
-
-                        JarvisSpeak(cpuLoadVocalMessage, VoiceGender.Male);
-       
+                    string cpuLoadVocalMessage = cpuMaxedOutMessages[i];
+                    JarvisSpeak(cpuLoadVocalMessage, VoiceGender.Male);
                 }
-             #endregion
-                Thread.Sleep(100);
-             // end of loop
+            Thread.Sleep(100);
+            // end of loop
         }
 
         private int percentageExist(int n)

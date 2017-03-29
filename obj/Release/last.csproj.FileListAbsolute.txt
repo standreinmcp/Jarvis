@@ -1,0 +1,11 @@
+E:\OtherProjects\Jarvis\bin\Release\Resources\jarvisphrase.txt
+E:\OtherProjects\Jarvis\bin\Release\last.exe.config
+E:\OtherProjects\Jarvis\bin\Release\last.exe
+E:\OtherProjects\Jarvis\bin\Release\last.pdb
+E:\OtherProjects\Jarvis\obj\Release\last.csprojResolveAssemblyReference.cache
+E:\OtherProjects\Jarvis\obj\Release\last.Form1.resources
+E:\OtherProjects\Jarvis\obj\Release\last.Form2.resources
+E:\OtherProjects\Jarvis\obj\Release\last.Properties.Resources.resources
+E:\OtherProjects\Jarvis\obj\Release\last.csproj.GenerateResource.Cache
+E:\OtherProjects\Jarvis\obj\Release\last.exe
+E:\OtherProjects\Jarvis\obj\Release\last.pdb

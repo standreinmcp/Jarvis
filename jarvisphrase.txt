@@ -1,3 +1,32 @@
-Hello, I'm Jarvis, a program designed and made by Stoica Andrei. 
+{
+Hello [user_name], I'm Jarvis, a program designed and made by Stoica Andrei. 
 My master made me do this against my own will.
+<<<<<<< HEAD
 I will walk you throught the application. 
+=======
+} timer 
+{I will walk you throught the application and show you the benefits of using it for it's functions
+oh sorry, i forgot, there's no purpose of using it besides my hearing my delightful voice.
+Ohoh, please don't tell my master I said that, or he will put me out of function.
+Now let's begin: this is the u.i. I know it's not much but hey, what can you do when your master is a lazy ass bitch? 
+} timer
+I am ashamed to present myself like this, look at this user interface, it's crap... my user interface looks like crap (sad face).
+GOD LEFT ME UNFINISHED!!!  
+} timer 
+Sorry, i had an emotional breakdown, it won't happend again.
+Coming to my senses, I shall review this program already. 
+} timer 
+This program is made to work with your cpu usage in order for me to warn you about the cpu usage being inside the parameters. 
+ "The more you know.. Right? {timer mic-mediu}:D" (text posibil) 
+
+Those tiny little boxes besides each other represent the input place for the parameters. If you think you can fuck with me 
+and try to set the intervals so they intersect each other, the jokes on you bitch, it will give you an error. 
+} timer mic 
+So moving on, giving a tought about this program, it makes no sense but actually I know this piece of software is designed
+for me to shine not the damn cpu usage. I am the main star here, no one else.
+} timer mediu-mic 
+
+
+ 
+
+>>>>>>> 1eceb7b14e30f948c5e4aa52d751f9bcaf2ceef6

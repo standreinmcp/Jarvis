@@ -56,6 +56,7 @@ Z:\XIIC\last\obj\Debug\last.csproj.GenerateResource.Cache
 C:\Users\stoic\Documents\Visual Studio 2015\Projects\last1\bin\Debug\last.exe.config
 C:\Users\stoic\Documents\Visual Studio 2015\Projects\last1\obj\Debug\last.exe
 C:\Users\stoic\Documents\Visual Studio 2015\Projects\last1\obj\Debug\last.pdb
+<<<<<<< HEAD
 E:\OtherProjects\Jarvis\obj\Debug\last.csprojResolveAssemblyReference.cache
 E:\OtherProjects\Jarvis\obj\Debug\last.Form1.resources
 E:\OtherProjects\Jarvis\obj\Debug\last.Form2.resources
@@ -67,3 +68,8 @@ E:\OtherProjects\Jarvis\bin\Debug\last.exe.config
 E:\OtherProjects\Jarvis\bin\Debug\last.exe
 E:\OtherProjects\Jarvis\bin\Debug\last.pdb
 E:\OtherProjects\Jarvis\bin\Debug\Resources\jarvisphrase.txt
+=======
+C:\Users\stoic\Documents\VisualStudio2015\Projects\last1\bin\Debug\last.exe.config
+C:\Users\stoic\Documents\VisualStudio2015\Projects\last1\obj\Debug\last.exe
+C:\Users\stoic\Documents\VisualStudio2015\Projects\last1\obj\Debug\last.pdb
+>>>>>>> 1eceb7b14e30f948c5e4aa52d751f9bcaf2ceef6

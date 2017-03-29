@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO.D
 //Comment
+// Double comment omg! 
 namespace last
 {
     public partial class Form1 : Form

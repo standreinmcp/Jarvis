@@ -19,3 +19,4 @@ C:\Users\stoic\Documents\VisualStudio2015\Projects\last1\obj\Debug\last.Form1.re
 C:\Users\stoic\Documents\VisualStudio2015\Projects\last1\obj\Debug\last.Form2.resources
 C:\Users\stoic\Documents\VisualStudio2015\Projects\last1\obj\Debug\last.Properties.Resources.resources
 C:\Users\stoic\Documents\VisualStudio2015\Projects\last1\obj\Debug\last.csproj.GenerateResource.Cache
+C:\Users\stoic\Documents\VisualStudio2015\Projects\last1\obj\Debug\last.Resources.Form1.resources

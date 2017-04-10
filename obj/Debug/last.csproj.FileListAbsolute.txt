@@ -8,3 +8,14 @@ E:\OtherProjects\Jarvis\obj\Debug\last.Properties.Resources.resources
 E:\OtherProjects\Jarvis\obj\Debug\last.csproj.GenerateResource.Cache
 E:\OtherProjects\Jarvis\obj\Debug\last.exe
 E:\OtherProjects\Jarvis\obj\Debug\last.pdb
+C:\Users\stoic\Documents\VisualStudio2015\Projects\last1\bin\Debug\last.exe.config
+C:\Users\stoic\Documents\VisualStudio2015\Projects\last1\obj\Debug\last.exe
+C:\Users\stoic\Documents\VisualStudio2015\Projects\last1\obj\Debug\last.pdb
+C:\Users\stoic\Documents\VisualStudio2015\Projects\last1\bin\Debug\Resources\jarvisphrase.txt
+C:\Users\stoic\Documents\VisualStudio2015\Projects\last1\bin\Debug\last.exe
+C:\Users\stoic\Documents\VisualStudio2015\Projects\last1\bin\Debug\last.pdb
+C:\Users\stoic\Documents\VisualStudio2015\Projects\last1\obj\Debug\last.csprojResolveAssemblyReference.cache
+C:\Users\stoic\Documents\VisualStudio2015\Projects\last1\obj\Debug\last.Form1.resources
+C:\Users\stoic\Documents\VisualStudio2015\Projects\last1\obj\Debug\last.Form2.resources
+C:\Users\stoic\Documents\VisualStudio2015\Projects\last1\obj\Debug\last.Properties.Resources.resources
+C:\Users\stoic\Documents\VisualStudio2015\Projects\last1\obj\Debug\last.csproj.GenerateResource.Cache

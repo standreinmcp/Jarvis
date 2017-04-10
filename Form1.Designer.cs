@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.msgBox = new System.Windows.Forms.TextBox();
             this.rangeBox2 = new System.Windows.Forms.TextBox();
             this.rangeBox1 = new System.Windows.Forms.TextBox();
@@ -44,7 +45,7 @@
             // 
             // msgBox
             // 
-            this.msgBox.Location = new System.Drawing.Point(117, 116);
+            this.msgBox.Location = new System.Drawing.Point(56, 88);
             this.msgBox.Name = "msgBox";
             this.msgBox.Size = new System.Drawing.Size(486, 20);
             this.msgBox.TabIndex = 3;
@@ -53,7 +54,7 @@
             // 
             // rangeBox2
             // 
-            this.rangeBox2.Location = new System.Drawing.Point(319, 155);
+            this.rangeBox2.Location = new System.Drawing.Point(510, 151);
             this.rangeBox2.Name = "rangeBox2";
             this.rangeBox2.Size = new System.Drawing.Size(32, 20);
             this.rangeBox2.TabIndex = 1;
@@ -61,7 +62,7 @@
             // 
             // rangeBox1
             // 
-            this.rangeBox1.Location = new System.Drawing.Point(281, 155);
+            this.rangeBox1.Location = new System.Drawing.Point(56, 142);
             this.rangeBox1.Name = "rangeBox1";
             this.rangeBox1.Size = new System.Drawing.Size(32, 20);
             this.rangeBox1.TabIndex = 0;
@@ -69,7 +70,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(281, 192);
+            this.button1.Location = new System.Drawing.Point(291, 192);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 4;
@@ -80,7 +81,7 @@
             // errorLabel
             // 
             this.errorLabel.AutoSize = true;
-            this.errorLabel.Location = new System.Drawing.Point(117, 361);
+            this.errorLabel.Location = new System.Drawing.Point(117, 347);
             this.errorLabel.Name = "errorLabel";
             this.errorLabel.Size = new System.Drawing.Size(57, 13);
             this.errorLabel.TabIndex = 7;
@@ -88,7 +89,7 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(281, 232);
+            this.richTextBox1.Location = new System.Drawing.Point(180, 278);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(307, 166);
             this.richTextBox1.TabIndex = 5;
@@ -96,7 +97,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(389, 192);
+            this.button2.Location = new System.Drawing.Point(99, 381);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 6;
@@ -148,7 +149,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(749, 474);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(749, 487);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Exit);
